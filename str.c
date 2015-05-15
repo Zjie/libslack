@@ -2849,7 +2849,7 @@ static StringTR *str_tr_compile_table_unlocked(StringTR *table, const String *fr
 
 /*
 
-C<static int do_tr_compiled(unsigned char *str, size_t *length, StringTR *table)>
+=item C<static int do_tr_compiled(unsigned char *str, size_t *length, StringTR *table)>
 
 Performs the character translation specified by C<table> (as created by
 I<tr_compile(3)> or equivalent) on C<str>. If C<length> is C<null>, C<str> is
